@@ -9,7 +9,7 @@
     "clean": "rimraf ./dist",
     "lint": "run-s lint:code",
     "lint:code": "eslint --ext ts,tsx,js,jsx src",
-    "start": "parcel public/index.html --open",
+    "start": "parcel src/index.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

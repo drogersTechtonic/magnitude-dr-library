@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import './assets/index.scss';
+
+import './styles/index.scss';
 
 const Application: React.SFC<{}> = () => <h1>Application</h1>;
 
