@@ -1,0 +1,7 @@
+@function headings() {
+  $result: '';
+  @for $i from 1 through 6 {
+    $result: #{$result h#{$i}};
+  }
+  @return $result;
+}
