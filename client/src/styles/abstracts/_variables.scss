@@ -1,4 +1,11 @@
+// Color Palette
+$dark-lava: #463f3a;
+$rocket-metallic: #827873;
+$timberwolf: #d0cdc8;
+$alabaster: #f4f3ee;
+$melon: #e0afa0;
+
 // Main Section Colors
 $text-color: #222 !default;
-$text-color-light: #aaa !default;
-$type-border: #ddd !default;
+$text-color-light: $timberwolf;
+$type-border: $alabaster;
