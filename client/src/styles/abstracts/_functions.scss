@@ -1,7 +1,9 @@
+@use 'sass:list';
+
 @function headings() {
-  $result: '';
+  $result: ();
   @for $i from 1 through 6 {
-    $result: #{$result h#{$i}};
+    $result: list.append($result, h#{$i}, $separator: comma);
   }
   @return $result;
 }
