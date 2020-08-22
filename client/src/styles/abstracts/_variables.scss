@@ -1,11 +1,15 @@
+@use 'sass:color';
+
 // Color Palette
 $dark-lava: #463f3a;
 $rocket-metallic: #827873;
 $timberwolf: #d0cdc8;
 $alabaster: #f4f3ee;
-$melon: #e0afa0;
+$middle-red: #d28973;
+$copper-red: #cd7d65;
+$kournikova: #ffdd7a;
 
-// Main Section Colors
 $text-color: #222 !default;
 $text-color-light: $timberwolf;
+$text-color-muted: color.adjust($timberwolf, $lightness: -10%);
 $type-border: $alabaster;
